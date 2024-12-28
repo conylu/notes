@@ -34,7 +34,8 @@ layout: post
   这样做的目的是, 使得网站的子网页链接的根地址为自己的 github 个人主页, 否则会链接到[你 fork 的模板 repo 的主人]的 github 个人主页
 - push 到远程仓库
 - check: 按照 step 1-4 设置, 过几分钟后会看到 5 的位置出现你的个人网站网址; 有时在手机浏览器访问该网址能比电脑浏览器更快看到效果
-  ![alt text](assets/gitbook/images/post_images/build_personal_page_on_github\image1.png)
+
+  ![alt text](../assets/gitbook/images/post_images/build_personal_page_on_github/image1.png)
 
 
 ## 如何在 github 个人主页的基础上, 设置一个子目录, 用于展示自己的项目
@@ -45,7 +46,7 @@ layout: post
   - notes repo 中 fork [GitBook Style](https://sighingnow.github.io/jekyll-gitbook) 模板
   - 用 Github Desktop 将 notes repo clone 到本地, 修改 _config.yml 文件, 将 url 修改为 https://[您的GitHub用户名].github.io/notes, 将 baseurl 修改为 "/notes", push 到远程仓库
   - 将 notes repo 设置为 github pages, 选择 source 为 master branch, 点击 save
-    ![alt text](assets/gitbook/images/post_images/build_personal_page_on_github\image2.png)
+  ![alt text](../assets/gitbook/images/post_images/build_personal_page_on_github/image1.png)
 - 思想:
   - 看最终网址, 似乎 notes 是 username.github.io 的子目录/一个选项卡, 它具有下面的特征: 1. 在 username.github.io 的主页上点击 notes 选项卡, 就会跳转到 username.github.io/notes; 2. 在本地的 username.github.io repo 中有一个 notes 文件夹, 里面存放了 notes repo 的内容
   - 但实际上, notes 是 username.github.io 的一个独立的 repo, 通过 baseurl 的设置, 使得 notes repo 的网址为 username.github.io/notes
