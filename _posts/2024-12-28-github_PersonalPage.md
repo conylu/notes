@@ -6,15 +6,6 @@ category: Jekyll
 layout: post
 ---
 
-```yaml
-toc:
-    enabled: true
-```
-
-Why this repo
--------------
-
-
 
 # 20241228_01_github个人主页搭建_带选项卡
 
