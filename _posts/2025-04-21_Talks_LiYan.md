@@ -1,5 +1,5 @@
 ---
-title: Talks by 严力
+title: Talks by Li Yan(FuDan University)
 author: Cony Lu
 date: 2025-04-21
 category: Jekyll
